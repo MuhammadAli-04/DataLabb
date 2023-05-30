@@ -1,0 +1,21 @@
+.div1{
+    color: white;
+    background-image: url('../../../public/resources/bg-haikei.svg');
+    padding: 2% 6%;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    div{
+        margin: auto 0;
+        width: calc(100%/2);
+    }
+}
+
+.img{
+    display: grid;
+    place-items: center;
+}
+
